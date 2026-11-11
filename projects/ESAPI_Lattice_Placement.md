@@ -12,8 +12,8 @@ Manual placement of three-dimensional lattice vertices is repetitive and geometr
 
 ## 2. Methods and architecture
 
-The engine generates candidate lattice coordinates, rejects candidates that violate the contracted-target or image-volume boundary and creates individual control structures plus a union structure. The algorithm retains atomic failure behaviour so an invalid run does not leave partial outputs.
-
+The engine generates candidate lattice coordinates, rejects candidates that violate the contracted-target or image-volume boundary and creates individual control structures plus a union structure. The algorithm retains atomic failure behaviour so an invalid run does not leave partial outputs. This is a replication of Mathieu Gaudreault, Kelvin K. Yu, David Chang, Tomas Kron, Nicholas Hardcastle, Sarat Chander, Adam Yeo,Automated lattice radiation therapy treatment planning personalised to tumour size and shape, Physica Medica, Volume 125,
+2024,104490, ISSN 1120-1797, https://doi.org/10.1016/j.ejmp.2024.104490 (https://www.sciencedirect.com/science/article/pii/S1120179724002357)
 ## 3. Implementation
 
 - C# implementation structured around ESAPI geometry and structure-set interfaces.
