@@ -50,20 +50,4 @@ The scaffold included geometry metrics, controlled perturbations, failure rules,
 
 The archived project record does not establish trained-model performance or clinical contour approval.
 
-## Talent Leads API
-
-### Problem
-
-Create a compliant workflow for authorised job-signal ingestion, deterministic lead scoring, human-reviewed outreach and export without scraping or account automation.
-
-![Generated FastAPI OpenAPI interface](../assets/talent-api.jpg)
-
-### Implementation and evidence
-
-The FastAPI service included CSV and JSON ingestion, deduplication, configurable ranking, API-key protection, pipeline state and CSV export. Five automated tests passed locally in 0.16 seconds; the development record reported 85% coverage.
-
-### Boundary
-
-LinkedIn scraping, member-profile extraction, account automation and unsupervised messaging were excluded by design.
-
 [Back to portfolio](../README.md)

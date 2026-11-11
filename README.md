@@ -14,7 +14,7 @@ This repository is the navigable evidence layer for work in radiotherapy physics
 | [Non-local radiobiology](projects/Nonlocal_Radiobiology.md) | Reaction–diffusion signalling, TOPAS dose, vascular uptake, biological reinterpretation | [Published article](https://doi.org/10.1088/1361-6560/ae94dd), [reproducibility package](https://github.com/kair98-boop/SFRT) |
 | [Radiotherapy digital twin](projects/Digital_Twin.md) | Anatomy, motion, circulation, transport, radiation, oxygen and biological interfaces | Deterministic release, mesh checks, conservation tests, checkpoint comparison |
 | [ESAPI lattice placement](projects/ESAPI_Lattice_Placement.md) | C# treatment-planning automation and geometric verification | [Source](https://github.com/kaiwooodger/ESAPI-Script), 375-trial parameter sweep, local phantom evidence |
-| [Additional systems](projects/Additional_Engineering_Projects.md) | VHEE simulation, biological audit, contouring QA and FastAPI service development | Quantitative outputs, archived test records and interface captures |
+| [Additional systems](projects/Additional_Engineering_Projects.md) | VHEE simulation, biological audit and contouring QA | Quantitative outputs and archived test records |
 
 ## Repository map
 

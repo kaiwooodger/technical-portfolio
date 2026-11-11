@@ -47,6 +47,6 @@ A public C# implementation with independent synthetic geometry evidence.
 
 ## Technical report
 
-The [13-page technical portfolio](../downloads/Kai_Woodger_Technical_Portfolio.pdf) records major systems, quantitative verification, images, evidence boundaries and capability mapping.
+The [12-page technical portfolio](../downloads/Kai_Woodger_Technical_Portfolio.pdf) records major systems, quantitative verification, images, evidence boundaries and capability mapping.
 
 [Back to portfolio](../README.md)
