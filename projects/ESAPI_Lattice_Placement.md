@@ -4,6 +4,8 @@
 **Language:** C#  
 **Environment:** Varian Eclipse Scripting API boundary
 
+**Method reference:** [Gaudreault et al., *Medical Physics* 2024;51(1):682-693](https://doi.org/10.1002/mp.16761)
+
 ![ESAPI lattice parameter-sweep results](../assets/esapi-sweep.png)
 
 ## 1. Problem definition
@@ -12,8 +14,10 @@ Manual placement of three-dimensional lattice vertices is repetitive and geometr
 
 ## 2. Methods and architecture
 
-The engine generates candidate lattice coordinates, rejects candidates that violate the contracted-target or image-volume boundary and creates individual control structures plus a union structure. The algorithm retains atomic failure behaviour so an invalid run does not leave partial outputs. This is a replication of Mathieu Gaudreault, Kelvin K. Yu, David Chang, Tomas Kron, Nicholas Hardcastle, Sarat Chander, Adam Yeo,Automated lattice radiation therapy treatment planning personalised to tumour size and shape, Physica Medica, Volume 125,
-2024,104490, ISSN 1120-1797, https://doi.org/10.1016/j.ejmp.2024.104490 (https://www.sciencedirect.com/science/article/pii/S1120179724002357)
+The engine generates candidate lattice coordinates, rejects candidates that violate the contracted-target or image-volume boundary and creates individual control structures plus a union structure. The algorithm retains atomic failure behaviour so an invalid run does not leave partial outputs.
+
+The sphere-placement geometry follows Section 2.3 of Gaudreault M, Chang D, Kron T, Siva S, Chander S, Hardcastle N and Yeo A, "Development of an automated treatment planning approach for lattice radiation therapy," *Medical Physics*. 2024;51(1):682-693. [doi:10.1002/mp.16761](https://doi.org/10.1002/mp.16761). The retry order, superior/inferior end-fill search and safety checks are implementation choices. This work does not claim to reproduce the authors' source code.
+
 ## 3. Implementation
 
 - C# implementation structured around ESAPI geometry and structure-set interfaces.

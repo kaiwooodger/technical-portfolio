@@ -42,6 +42,7 @@ A public Qt 6 workstation for DICOM-RT validation, lattice radiotherapy dosimetr
 A public C# implementation with independent synthetic geometry evidence.
 
 - [Source repository](https://github.com/kaiwooodger/ESAPI-Script)
+- Method reference: [Gaudreault et al., *Medical Physics* 2024;51(1):682-693](https://doi.org/10.1002/mp.16761)
 - 375-trial parameter sweep
 - Worked phantom and regression evidence
 
