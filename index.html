@@ -4,10 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Kai Woodger | Technical Portfolio</title>
-  <meta name="description" content="Medical physics, computational modelling and evidence-led scientific software engineering by Kai Woodger.">
+  <meta name="description" content="Medical physics software, radiotherapy modelling and treatment-planning research by Kai Woodger.">
   <meta name="theme-color" content="#102b3f">
   <meta property="og:title" content="Kai Woodger | Technical Portfolio">
-  <meta property="og:description" content="Research software and numerical methods for radiotherapy physics, biological response modelling and computational medicine.">
+  <meta property="og:description" content="Software and computational research for radiotherapy plan evaluation, treatment planning and biological modelling.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://kaiwooodger.github.io/technical-portfolio/">
   <meta property="og:image" content="https://kaiwooodger.github.io/technical-portfolio/assets/ascend-multiplanar-viewer.png">
@@ -38,8 +38,8 @@
       <div class="shell hero-grid">
         <div class="hero-copy">
           <p class="eyebrow">Technical portfolio</p>
-          <h1>Medical physics. Computational modelling. Scientific software engineering.</h1>
-          <p class="lede">Research software and numerical methods for radiotherapy physics, biological response modelling and computational medicine. Every major claim is tied to inspectable code, tests, quantitative results or a published research output.</p>
+          <h1>Medical physics software for radiotherapy research and treatment planning</h1>
+          <p class="lede">I develop and test software for radiotherapy plan evaluation, treatment-planning automation and computational modelling. This portfolio shows what each project does, how I tested it and where further clinical validation is still required.</p>
           <div class="actions">
             <a class="button button-primary" href="CV.pdf">Download portfolio PDF</a>
             <a class="button button-secondary" href="https://github.com/kaiwooodger">GitHub profile</a>
@@ -63,8 +63,8 @@
 
     <section class="evidence-strip" aria-label="Portfolio evidence summary">
       <div class="shell metrics">
-        <div><strong>103</strong><span>development threads indexed</span></div>
-        <div><strong>166</strong><span>ASCEND application files</span></div>
+        <div><strong>103</strong><span>project records reviewed</span></div>
+        <div><strong>166</strong><span>ASCEND source files</span></div>
         <div><strong>375</strong><span>ESAPI geometry trials</span></div>
         <div><strong>39,664</strong><span>verified digital-twin mesh triangles</span></div>
       </div>
@@ -74,8 +74,8 @@
       <div class="shell">
         <div class="section-heading">
           <p class="eyebrow">Selected projects</p>
-          <h2>Systems built around explicit evidence boundaries</h2>
-          <p>Each case study separates software verification from scientific or clinical validation.</p>
+          <h2>Projects and the evidence supporting them</h2>
+          <p>For each project, I separate software testing from scientific validation and clinical use.</p>
         </div>
 
         <article class="feature-card feature-card-wide">
@@ -83,12 +83,12 @@
             <p class="case-number">01 / Flagship system</p>
             <h3>ASCEND</h3>
             <p class="feature-subtitle">Independent radiotherapy plan evaluation</p>
-            <p>A cross-platform Qt 6 workstation with 395 tests and 40 subtests passing in the current checkout, six verified Linux, Windows and macOS configurations, frozen numerical comparisons and an explicit Eclipse DVH benchmark.</p>
+            <p>ASCEND independently checks DICOM radiotherapy data and calculates physical and biological measures for lattice radiotherapy plans. The current version passed 395 tests and 40 subtests. Earlier release testing also passed on Linux, Windows and macOS, and one stored case was compared with Eclipse dose-volume histogram results.</p>
             <dl class="result-grid">
-              <div><dt>Automated tests</dt><dd>395 + 40 subtests</dd></div>
-              <div><dt>CI configurations</dt><dd>6</dd></div>
-              <div><dt>Maximum numerical drift</dt><dd>8.88e-16</dd></div>
-              <div><dt>Eclipse dose comparisons</dt><dd>19 / 19 passed</dd></div>
+              <div><dt>Current local test run</dt><dd>395 + 40 subtests</dd></div>
+              <div><dt>Operating-system configurations</dt><dd>6</dd></div>
+              <div><dt>Largest repeatability difference</dt><dd>8.88e-16</dd></div>
+              <div><dt>Eclipse dose checks</dt><dd>19 / 19 passed</dd></div>
             </dl>
             <div class="card-links">
               <a href="https://github.com/kaiwooodger/technical-portfolio/blob/main/projects/ASCEND.md">Technical case study</a>
@@ -105,12 +105,12 @@
             <figure><img src="assets/validation_results.png" alt="Cohort results comparing physical-only and biology-informed lattice radiotherapy interpretations" width="1800" height="851" loading="lazy"></figure>
             <div class="project-body">
               <p class="case-number">02 / Published research</p>
-              <h3>Non-local radiobiological modelling</h3>
-              <p>Reaction-diffusion modelling of ROS-like and cytokine-like signalling, anatomy-aware vascular uptake and biological reinterpretation of TOPAS-derived lattice dose patterns.</p>
+              <h3>Biological response beyond the high-dose regions</h3>
+              <p>This published study examines whether cell signalling and uptake by blood vessels could change the predicted biological effect of a lattice radiotherapy dose distribution. The model uses TOPAS dose data and simulates how biological signals move through tissue.</p>
               <ul class="compact-results">
                 <li>Physics in Medicine &amp; Biology 71(16)</li>
                 <li>10-case controlled computational cohort</li>
-                <li>65/70 sink-related endpoint shifts exceeded the combined 95% uncertainty band</li>
+                <li>65 of 70 vascular-uptake comparisons changed by more than the combined 95% uncertainty range</li>
               </ul>
               <div class="card-links">
                 <a href="https://github.com/kaiwooodger/technical-portfolio/blob/main/projects/Nonlocal_Radiobiology.md">Technical case study</a>
@@ -123,12 +123,12 @@
             <figure class="dark-figure"><img src="assets/digital-twin.png" alt="Watertight synthetic whole-body computational mesh" width="1800" height="1800" loading="lazy"></figure>
             <div class="project-body">
               <p class="case-number">03 / Computational medicine</p>
-              <h3>Patient-specific digital twin</h3>
-              <p>A deterministic multiscale framework coupling synthetic anatomy, motion, circulation, transport, radiation, oxygen response, biological interfaces and checkpointed execution.</p>
+              <h3>Radiotherapy digital twin</h3>
+              <p>This research prototype combines a synthetic body model with motion, circulation, radiation transport, oxygen response and biological calculations. It is designed to test how these components exchange data in a repeatable simulation.</p>
               <ul class="compact-results">
-                <li>Watertight mesh with zero boundary, non-manifold or degenerate elements</li>
-                <li>Byte-identical clean rerun for the immutable engineering release</li>
-                <li>Clinical use remains explicitly blocked</li>
+                <li>The synthetic body surface contained no holes or invalid mesh elements</li>
+                <li>A clean rerun reproduced the same simulation files exactly</li>
+                <li>The prototype is not approved or validated for clinical use</li>
               </ul>
               <div class="card-links"><a href="https://github.com/kaiwooodger/technical-portfolio/blob/main/projects/Digital_Twin.md">Technical case study</a></div>
             </div>
@@ -142,7 +142,7 @@
           <div class="feature-copy">
             <p class="case-number">04 / Treatment-planning automation</p>
             <h3>ESAPI lattice sphere placement</h3>
-            <p>C# geometry automation implementing Gaudreault-style three-dimensional sphere lattices with target contraction, image-bound checks, minimum spacing, containment and atomic cleanup rules.</p>
+            <p>This C# script automatically places three-dimensional lattice spheres in an Eclipse structure set. It checks that each sphere remains inside the contracted target and image volume, maintains the requested spacing and leaves the original GTV unchanged.</p>
             <dl class="result-grid">
               <div><dt>Trials</dt><dd>375</dd></div>
               <div><dt>Valid lattices</dt><dd>336</dd></div>
@@ -162,9 +162,9 @@
       <div class="shell publication-grid">
         <div>
           <p class="eyebrow eyebrow-light">Peer-reviewed research</p>
-          <h2>Biology-informed reinterpretation of lattice radiotherapy</h2>
+          <h2>How biological signalling may alter the interpretation of lattice radiotherapy</h2>
           <p class="citation">Woodger K. <em>Physics in Medicine &amp; Biology</em>. 2026;71(16). DOI: 10.1088/1361-6560/ae94dd.</p>
-          <p>The work tests whether physical dose interpretation is preserved after non-local signalling and vascular uptake are introduced. It treats the framework as hypothesis-generating and retains patient-data, vascular-segmentation and experimental-validation requirements as explicit limitations.</p>
+          <p>The study asks whether physical dose metrics alone describe the expected response when biological signals can spread beyond the irradiated region and be removed by blood vessels. It is a hypothesis-generating computational study. Patient data, vessel segmentation and experimental validation are still required.</p>
           <div class="dark-links">
             <a href="https://doi.org/10.1088/1361-6560/ae94dd">DOI record</a>
             <a href="https://pubmed.ncbi.nlm.nih.gov/42551488/">PubMed</a>
@@ -183,24 +183,24 @@
       <div class="shell">
         <div class="section-heading">
           <p class="eyebrow">Engineering evidence</p>
-          <h2>Architecture, verification and computational methods</h2>
-          <p>The portfolio records how a result was produced, which acceptance criteria it passed and which claims remain blocked.</p>
+          <h2>How the software was designed and tested</h2>
+          <p>These sections describe the software structure, the tests used to check the calculations and the limitations that remain.</p>
         </div>
         <div class="method-grid">
           <a class="method-card" href="https://github.com/kaiwooodger/technical-portfolio/blob/main/engineering/software_architecture.md">
             <span>01</span>
             <h3>Software architecture</h3>
-            <p>Layered scientific services, stateful desktop workflows, adapters, data contracts, provenance and release identity.</p>
+            <p>How the calculation modules, user interface, data import and result export work together.</p>
           </a>
           <a class="method-card" href="https://github.com/kaiwooodger/technical-portfolio/blob/main/engineering/testing_and_validation.md">
             <span>02</span>
             <h3>Testing and validation</h3>
-            <p>Unit and integration suites, synthetic fixtures, manufactured references, independent checks and explicit claim gates.</p>
+            <p>Automated tests, synthetic test cases, numerical reference results and independent comparisons.</p>
           </a>
           <a class="method-card" href="https://github.com/kaiwooodger/technical-portfolio/blob/main/engineering/computational_methods.md">
             <span>03</span>
             <h3>Computational methods</h3>
-            <p>DICOM geometry, Monte Carlo transport, graph sampling, reaction-diffusion systems, optimisation and uncertainty analysis.</p>
+            <p>DICOM coordinates, Monte Carlo transport, spatial dose sampling, biological signal modelling and uncertainty analysis.</p>
           </a>
         </div>
       </div>
@@ -210,17 +210,17 @@
       <div class="shell evidence-grid">
         <div>
           <p class="eyebrow">Verification standard</p>
-          <h2>Evidence before assertion</h2>
+          <h2>How I decide what the evidence supports</h2>
           <ol class="evidence-list">
-            <li><strong>Define the problem.</strong> State the scientific question, intended use and excluded claims.</li>
-            <li><strong>Implement traceably.</strong> Record inputs, units, coordinate systems, versions, hashes and parameter identities.</li>
-            <li><strong>Verify quantitatively.</strong> Use regression tests, synthetic references, conservation checks, uncertainty bands and independent comparison.</li>
-            <li><strong>Retain limitations.</strong> Keep prototype, external-validation and clinical-use gates visible in code, outputs and documentation.</li>
+            <li><strong>Define the clinical or scientific question.</strong> State what the software is intended to assess and what it does not establish.</li>
+            <li><strong>Record how each result was produced.</strong> Preserve inputs, units, coordinate systems, software versions and calculation settings.</li>
+            <li><strong>Check the calculations quantitatively.</strong> Use automated tests, synthetic cases, reference values and independent comparisons.</li>
+            <li><strong>Report the limitations.</strong> State when external validation, commissioning or clinical evidence is still required.</li>
           </ol>
         </div>
         <aside class="disclosure">
           <h3>AI-assisted development disclosure</h3>
-          <p>AI-assisted tools supported implementation, debugging, validation, documentation and release work. Scientific scope, source selection, acceptance criteria, evidence interpretation, risk boundaries and final technical decisions remained my responsibility.</p>
+          <p>I used AI-assisted tools during software development, debugging, testing, documentation and release preparation. I remained responsible for the scientific scope, source selection, acceptance criteria, interpretation of results, clinical limitations and final technical decisions.</p>
           <a class="button button-primary" href="downloads/Kai_Woodger_Technical_Portfolio.pdf">Open the 12-page evidence report</a>
           <a class="doc-link" href="downloads/Kai_Woodger_Technical_Portfolio.docx">Editable Word version</a>
         </aside>
