@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kai Woodger | Technical Portfolio</title>
+  <meta name="description" content="Medical physics, computational modelling and evidence-led scientific software engineering by Kai Woodger.">
+  <meta name="theme-color" content="#102b3f">
+  <meta property="og:title" content="Kai Woodger | Technical Portfolio">
+  <meta property="og:description" content="Research software and numerical methods for radiotherapy physics, biological response modelling and computational medicine.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://kaiwooodger.github.io/technical-portfolio/">
+  <meta property="og:image" content="https://kaiwooodger.github.io/technical-portfolio/assets/ascend_dashboard.png">
+  <link rel="canonical" href="https://kaiwooodger.github.io/technical-portfolio/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="#top" aria-label="Kai Woodger technical portfolio home">
+        <span class="brand-mark" aria-hidden="true">KW</span>
+        <span>Kai Woodger</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#projects">Projects</a>
+        <a href="#publication">Publication</a>
+        <a href="#engineering">Engineering</a>
+        <a href="#evidence">Evidence</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="shell hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Technical portfolio</p>
+          <h1>Medical physics. Computational modelling. Scientific software engineering.</h1>
+          <p class="lede">Research software and numerical methods for radiotherapy physics, biological response modelling and computational medicine. Every major claim is tied to inspectable code, tests, quantitative results or a published research output.</p>
+          <div class="actions">
+            <a class="button button-primary" href="CV.pdf">Download portfolio PDF</a>
+            <a class="button button-secondary" href="https://github.com/kaiwooodger">GitHub profile</a>
+            <a class="text-link" href="https://orcid.org/0009-0004-0626-4899">ORCID 0009-0004-0626-4899</a>
+          </div>
+          <ul class="skill-list" aria-label="Core technologies">
+            <li>Python</li>
+            <li>C#</li>
+            <li>DICOM-RT</li>
+            <li>TOPAS</li>
+            <li>Qt 6</li>
+            <li>CI/CD</li>
+          </ul>
+        </div>
+        <figure class="hero-visual">
+          <img src="assets/ascend_dashboard.png" alt="ASCEND 2.4.2 desktop workstation displaying lattice radiotherapy dosimetry states and results" width="1800" height="1059">
+          <figcaption>ASCEND 2.4.2: DICOM-RT validation, dosimetry and research radiobiology.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="evidence-strip" aria-label="Portfolio evidence summary">
+      <div class="shell metrics">
+        <div><strong>103</strong><span>development threads indexed</span></div>
+        <div><strong>166</strong><span>ASCEND application files</span></div>
+        <div><strong>375</strong><span>ESAPI geometry trials</span></div>
+        <div><strong>39,664</strong><span>verified digital-twin mesh triangles</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="shell">
+        <div class="section-heading">
+          <p class="eyebrow">Selected projects</p>
+          <h2>Systems built around explicit evidence boundaries</h2>
+          <p>Each case study separates software verification from scientific or clinical validation.</p>
+        </div>
+
+        <article class="feature-card feature-card-wide">
+          <div class="feature-copy">
+            <p class="case-number">01 / Flagship system</p>
+            <h3>ASCEND</h3>
+            <p class="feature-subtitle">Independent radiotherapy plan evaluation</p>
+            <p>A cross-platform Qt 6 workstation for validating DICOM relationships, reconstructing native dose evidence, calculating lattice radiotherapy metrics, analysing spatial PVDR and running provenance-controlled research radiobiology.</p>
+            <dl class="result-grid">
+              <div><dt>Release</dt><dd>2.4.2</dd></div>
+              <div><dt>Test files</dt><dd>44</dd></div>
+              <div><dt>Documentation</dt><dd>84 files</dd></div>
+              <div><dt>Workflows</dt><dd>4 GitHub Actions</dd></div>
+            </dl>
+            <div class="card-links">
+              <a href="https://github.com/kaiwooodger/technical-portfolio/blob/main/projects/ASCEND.md">Technical case study</a>
+              <a href="https://github.com/kaiwooodger/ASCEND">Source repository</a>
+            </div>
+          </div>
+          <figure class="feature-image">
+            <img src="assets/ascend-spatial-pvdr.png" alt="Scientific workflow for the ASCEND edge-local spatial iPVDR algorithm" width="1800" height="908" loading="lazy">
+          </figure>
+        </article>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <figure><img src="assets/validation_results.png" alt="Cohort results comparing physical-only and biology-informed lattice radiotherapy interpretations" width="1800" height="851" loading="lazy"></figure>
+            <div class="project-body">
+              <p class="case-number">02 / Published research</p>
+              <h3>Non-local radiobiological modelling</h3>
+              <p>Reaction-diffusion modelling of ROS-like and cytokine-like signalling, anatomy-aware vascular uptake and biological reinterpretation of TOPAS-derived lattice dose patterns.</p>
+              <ul class="compact-results">
+                <li>Physics in Medicine &amp; Biology 71(16)</li>
+                <li>10-case controlled computational cohort</li>
+                <li>65/70 sink-related endpoint shifts exceeded the combined 95% uncertainty band</li>
+              </ul>
+              <div class="card-links">
+                <a href="https://github.com/kaiwooodger/technical-portfolio/blob/main/projects/Nonlocal_Radiobiology.md">Technical case study</a>
+                <a href="https://doi.org/10.1088/1361-6560/ae94dd">Published article</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <figure class="dark-figure"><img src="assets/digital-twin.png" alt="Watertight synthetic whole-body computational mesh" width="1800" height="1800" loading="lazy"></figure>
+            <div class="project-body">
+              <p class="case-number">03 / Computational medicine</p>
+              <h3>Patient-specific digital twin</h3>
+              <p>A deterministic multiscale framework coupling synthetic anatomy, motion, circulation, transport, radiation, oxygen response, biological interfaces and checkpointed execution.</p>
+              <ul class="compact-results">
+                <li>Watertight mesh with zero boundary, non-manifold or degenerate elements</li>
+                <li>Byte-identical clean rerun for the immutable engineering release</li>
+                <li>Clinical use remains explicitly blocked</li>
+              </ul>
+              <div class="card-links"><a href="https://github.com/kaiwooodger/technical-portfolio/blob/main/projects/Digital_Twin.md">Technical case study</a></div>
+            </div>
+          </article>
+        </div>
+
+        <article class="feature-card secondary-feature">
+          <figure class="feature-image">
+            <img src="assets/esapi-sweep.png" alt="Parameter sweep evidence for ESAPI lattice sphere placement on irregular targets" width="1800" height="1414" loading="lazy">
+          </figure>
+          <div class="feature-copy">
+            <p class="case-number">04 / Treatment-planning automation</p>
+            <h3>ESAPI lattice sphere placement</h3>
+            <p>C# geometry automation implementing Gaudreault-style three-dimensional sphere lattices with target contraction, image-bound checks, minimum spacing, containment and atomic cleanup rules.</p>
+            <dl class="result-grid">
+              <div><dt>Trials</dt><dd>375</dd></div>
+              <div><dt>Valid lattices</dt><dd>336</dd></div>
+              <div><dt>Geometry failures</dt><dd>0</dd></div>
+              <div><dt>Worst spacing error</dt><dd>0 mm</dd></div>
+            </dl>
+            <div class="card-links">
+              <a href="https://github.com/kaiwooodger/technical-portfolio/blob/main/projects/ESAPI_Lattice_Placement.md">Technical case study</a>
+              <a href="https://github.com/kaiwooodger/ESAPI-Script">Source repository</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="publication">
+      <div class="shell publication-grid">
+        <div>
+          <p class="eyebrow eyebrow-light">Peer-reviewed research</p>
+          <h2>Biology-informed reinterpretation of lattice radiotherapy</h2>
+          <p class="citation">Woodger K. <em>Physics in Medicine &amp; Biology</em>. 2026;71(16). DOI: 10.1088/1361-6560/ae94dd.</p>
+          <p>The work tests whether physical dose interpretation is preserved after non-local signalling and vascular uptake are introduced. It treats the framework as hypothesis-generating and retains patient-data, vascular-segmentation and experimental-validation requirements as explicit limitations.</p>
+          <div class="dark-links">
+            <a href="https://doi.org/10.1088/1361-6560/ae94dd">DOI record</a>
+            <a href="https://pubmed.ncbi.nlm.nih.gov/42551488/">PubMed</a>
+            <a href="https://github.com/kair98-boop/SFRT">Reproducibility package</a>
+            <a href="https://github.com/kaiwooodger/technical-portfolio/blob/main/publications/research_outputs.md">Research outputs</a>
+          </div>
+        </div>
+        <figure>
+          <img src="assets/dose_distribution.png" alt="Synthetic head-and-neck lattice treatment geometry with vessel structures used for non-local modelling" width="1800" height="567" loading="lazy">
+          <figcaption>Controlled computational geometry used to evaluate dose, non-local signalling and vascular uptake.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" id="engineering">
+      <div class="shell">
+        <div class="section-heading">
+          <p class="eyebrow">Engineering evidence</p>
+          <h2>Architecture, verification and computational methods</h2>
+          <p>The portfolio records how a result was produced, which acceptance criteria it passed and which claims remain blocked.</p>
+        </div>
+        <div class="method-grid">
+          <a class="method-card" href="https://github.com/kaiwooodger/technical-portfolio/blob/main/engineering/software_architecture.md">
+            <span>01</span>
+            <h3>Software architecture</h3>
+            <p>Layered scientific services, stateful desktop workflows, adapters, data contracts, provenance and release identity.</p>
+          </a>
+          <a class="method-card" href="https://github.com/kaiwooodger/technical-portfolio/blob/main/engineering/testing_and_validation.md">
+            <span>02</span>
+            <h3>Testing and validation</h3>
+            <p>Unit and integration suites, synthetic fixtures, manufactured references, independent checks and explicit claim gates.</p>
+          </a>
+          <a class="method-card" href="https://github.com/kaiwooodger/technical-portfolio/blob/main/engineering/computational_methods.md">
+            <span>03</span>
+            <h3>Computational methods</h3>
+            <p>DICOM geometry, Monte Carlo transport, graph sampling, reaction-diffusion systems, optimisation and uncertainty analysis.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-tint" id="evidence">
+      <div class="shell evidence-grid">
+        <div>
+          <p class="eyebrow">Verification standard</p>
+          <h2>Evidence before assertion</h2>
+          <ol class="evidence-list">
+            <li><strong>Define the problem.</strong> State the scientific question, intended use and excluded claims.</li>
+            <li><strong>Implement traceably.</strong> Record inputs, units, coordinate systems, versions, hashes and parameter identities.</li>
+            <li><strong>Verify quantitatively.</strong> Use regression tests, synthetic references, conservation checks, uncertainty bands and independent comparison.</li>
+            <li><strong>Retain limitations.</strong> Keep prototype, external-validation and clinical-use gates visible in code, outputs and documentation.</li>
+          </ol>
+        </div>
+        <aside class="disclosure">
+          <h3>AI-assisted development disclosure</h3>
+          <p>Codex was used for implementation, debugging, validation, documentation and release work. Scientific scope, source selection, acceptance criteria, evidence interpretation, risk boundaries and final technical decisions remained my responsibility.</p>
+          <a class="button button-primary" href="downloads/Kai_Woodger_Technical_Portfolio.pdf">Open the 16-page evidence report</a>
+          <a class="doc-link" href="downloads/Kai_Woodger_Technical_Portfolio.docx">Editable Word version</a>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="shell footer-inner">
+      <div><strong>Kai Woodger</strong><span>Scientific software and medical physics</span></div>
+      <div class="footer-links">
+        <a href="https://github.com/kaiwooodger/technical-portfolio">Repository guide</a>
+        <a href="https://github.com/kaiwooodger">GitHub</a>
+        <a href="https://orcid.org/0009-0004-0626-4899">ORCID</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

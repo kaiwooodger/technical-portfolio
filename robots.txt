@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kaiwooodger.github.io/technical-portfolio/sitemap.xml
