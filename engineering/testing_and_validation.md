@@ -37,7 +37,7 @@ Use manual calculations, external TPS evidence, independent mesh checks, pinned 
 
 | Project | Verification result | Boundary retained |
 | --- | --- | --- |
-| ASCEND | 44 test files plus synthetic and external evidence records | Research software; no clinical decision use |
+| ASCEND | 395 tests plus 40 subtests passed locally; retained CI passed 229 tests plus 28 subtests on each of six configurations; 69/70 cross-platform metric comparisons were exact and one differed by 8.88e-16; 19/19 available Eclipse dose comparisons passed | Eclipse evidence is one stored case; four of nine volume comparisons failed and eight D2 endpoints were not assessed; research software only |
 | Digital twin | 39,664-triangle watertight mesh; byte-identical clean rerun | Engineering validation only |
 | ESAPI | 375 trials; 336 valid; 39 correct no-lattice outcomes; zero geometry failures | Eclipse execution remains installation-specific |
 | HEDOS adapter | 20 seeds × 100,000 particles per seed reproduced field and DVH modes | Does not validate human physiology |
