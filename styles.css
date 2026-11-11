@@ -272,10 +272,10 @@ h3 { margin-bottom: 12px; font-size: clamp(1.55rem, 2.2vw, 2.15rem); }
 .evidence-list { margin: 26px 0 0; padding-left: 1.4rem; }
 .evidence-list li { margin-bottom: 18px; padding-left: 0.55rem; }
 .evidence-list li::marker { color: var(--teal-dark); font-weight: 900; }
-.disclosure { padding: 34px; border-left: 5px solid var(--amber); background: var(--white); box-shadow: 0 14px 40px rgba(16, 43, 63, 0.09); }
-.disclosure h3 { font-size: 1.6rem; }
-.disclosure p { color: #3c4d59; }
-.disclosure .button { width: 100%; margin-top: 12px; }
+.downloads-card { padding: 34px; border-left: 5px solid var(--amber); background: var(--white); box-shadow: 0 14px 40px rgba(16, 43, 63, 0.09); }
+.downloads-card h3 { font-size: 1.6rem; }
+.downloads-card p { color: #3c4d59; }
+.downloads-card .button { width: 100%; margin-top: 12px; }
 .doc-link { display: block; margin-top: 14px; text-align: center; font-size: 0.82rem; font-weight: 760; }
 
 footer { padding: 42px 0; background: #0a1c29; color: #d6e1e6; }
