@@ -37,7 +37,7 @@ technical-portfolio/
 │   ├── testing_and_validation.md
 │   └── computational_methods.md
 ├── assets/
-│   ├── ascend_dashboard.png
+│   ├── ascend-multiplanar-viewer.png
 │   ├── dose_distribution.png
 │   └── validation_results.png
 └── downloads/

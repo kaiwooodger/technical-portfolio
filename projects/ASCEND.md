@@ -4,7 +4,7 @@
 **Source:** [github.com/kaiwooodger/ASCEND](https://github.com/kaiwooodger/ASCEND)  
 **Status:** Research software; not approved for clinical decision-making
 
-![ASCEND 2.4.2 desktop workstation](../assets/ascend_dashboard.png)
+![ASCEND 2.4.2 multiplanar radiobiology viewer](../assets/ascend-multiplanar-viewer.png)
 
 ## 1. Problem definition
 
