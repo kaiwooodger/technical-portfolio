@@ -52,9 +52,7 @@ technical-portfolio/
 - External clinical claims remain blocked until independent patient data, commissioned systems and the required governance are available.
 - Every research system records its intended use, unresolved assumptions and prohibited interpretation.
 
-## AI-assisted development
 
-Codex supported implementation, debugging, validation, documentation and release work. Scientific scope, source selection, acceptance criteria, interpretation, risk boundaries and final technical decisions remained the responsibility of Kai Woodger.
 
 ## Rights
 
