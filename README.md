@@ -53,7 +53,6 @@ technical-portfolio/
 - Every research system records its intended use, unresolved assumptions and prohibited interpretation.
 
 
-
 ## Rights
 
 Portfolio text and visual presentation are copyright Kai Woodger. Linked project repositories retain their own licence terms. Public visibility does not grant a licence to reuse project code or research assets outside those terms.
